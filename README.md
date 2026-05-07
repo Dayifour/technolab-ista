@@ -1,53 +1,52 @@
-# Node Bull
+# Technolab-ISTA: Academic Data Transformation Engine
 
-## Installation
+A specialized tool for institutional data modeling, designed to ingest raw academic transcripts and normalize them into a robust, nested JSON structure. This project eliminates manual data entry bottlenecks by enforcing strict validation rules across complex hierarchy levels: **Class > Student > Semester > Course > Grade.**
 
-Pour installer Node Bull, suivez les étapes ci-dessous :
+## 🚀 Core Features
+*   **Structured Normalization:** Transforms unstructured Excel-based academic data into a standardized, machine-readable JSON architecture.
+*   **Hierarchical Data Modeling:** Handles multi-level nesting to maintain clean relationships between academic entities.
+*   **Integrity Enforcement:** Implements rigorous validation logic to ensure data consistency across thousands of student records.
+*   **Automation-Ready:** Designed to integrate with downstream administrative or reporting systems.
 
-1. Clonez le dépôt :
+## 🛠️ Technical Stack
+*   **Runtime:** Node.js
+*   **Data Format:** JSON
+*   **Language:** JavaScript (ES6+)
 
-```bash
-git clone https://github.com/votre-utilisateur/node_bull.git
-```
+## 📥 Installation
 
-2. Accédez au répertoire du projet :
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/Dayifour/technolab-ista.git](https://github.com/Dayifour/technolab-ista.git)
+    ```
 
-```bash
-cd node_bull
-```
+2.  **Navigate to the project directory:**
+    ```bash
+    cd technolab-ista
+    ```
 
-3. Installez les dépendances :
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-```bash
-npm install
-```
+## ⚙️ Usage
+This engine processes source transcripts and outputs validated data models.
 
-## Utilisation
+1.  Place your source data (Excel/CSV) in the designated data directory.
+2.  **Run the processing script:**
+    ```bash
+    npm start
+    ```
 
-Pour démarrer l'application, utilisez la commande suivante :
+## 📈 Impact
+This project demonstrates expertise in:
+*   **Data Architecture:** Designing scalable schemas for complex organizational hierarchies.
+*   **ETL Processes:** Extracting, transforming, and loading complex documents into actionable database formats.
+*   **System Robustness:** Developing error-handling mechanisms that prevent data corruption in high-volume processing environments.
 
-```bash
-npm start
-```
+## 🤝 Contribution
+Contributions are welcome. Please ensure your PR includes unit tests for any new validation rules.
 
-## Configuration
-
-Vous pouvez configurer l'application en modifiant le fichier `config.json` situé à la racine du projet.
-
-## Contribuer
-
-Les contributions sont les bienvenues ! Veuillez suivre les étapes ci-dessous pour contribuer :
-
-1. Forkez le dépôt.
-2. Créez une branche pour votre fonctionnalité (`git checkout -b feature/AmazingFeature`).
-3. Commitez vos modifications (`git commit -m 'Add some AmazingFeature'`).
-4. Poussez votre branche (`git push origin feature/AmazingFeature`).
-5. Ouvrez une Pull Request.
-
-## Licence
-
-Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
-
-## Contact
-
-Pour toute question, veuillez contacter [@Dayifour3](mailto:sekoudayifourouk@gmail.com).
+---
+Made with ❤️ by [@Dayifour](https://github.com/Dayifour)
