@@ -49,4 +49,4 @@ This project demonstrates expertise in:
 Contributions are welcome. Please ensure your PR includes unit tests for any new validation rules.
 
 ---
-Made with ❤️ by [@Dayifour](https://github.com/Dayifour)
+Made with ❤️ by [@Dayifour](https://github.com/Dayifour) & [@Doubafly](https://github.com/doubafly)
